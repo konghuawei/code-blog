@@ -73,11 +73,12 @@ DB_USERNAME=root #数据库用户名
 DB_PASSWORD=123456 #数据库密码
 ```
 
-#### 执行安装命令
+#### 数据迁移
 ```
-php artisan blog:install
+php artisan migrate
 ```
-至此, 安装完成 ^_^。更多请查看[在线文档](https://www.inbjo.com/docs)
 
 ## License
 MIT
+
+> 来源博客 https://www.oschina.net/p/coreblog
